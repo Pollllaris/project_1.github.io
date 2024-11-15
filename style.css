@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #985ace;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  position: relative;
+  width: 1253px;
+  height: 96px;
+  background-color: #fff;
+  margin: 0px auto;
+  top: 50px;
+  border-radius: 24px;
+  box-shadow: #000;
+}
+
+.bag-1 {
+  position: relative;
+  left: 1131px;
+  top: 25px;
+}
+
+.bag {
+  position: relative;
+  left: 1151px;
+  top: 37.79px;
+}
+
+.user {
+  position: relative;
+  left: 1075px;
+  top: 37.79px;
+  transition: transform 0.3s ease;
+}
+
+.bag:hover {
+  width: 20px;
+  height: 16px;
+}
+
+.bag-1:hover {
+  width: 13px;
+  height: 12px;
+}
+
+.user:hover {
+  transform: scale(1.1);
+}
+
+.number {
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  left: 880px;
+  top: 35px;
+  height: 25px;
+  width: 149px;
+  transition: box-shadow 0.3s ease;
+}
+
+.number:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #2f2d2d98;
+}
+
+.contact {
+  position: relative;
+  left: 630px;
+  top: 36px;
+  width: 91px;
+  height: 22px;
+  color: #000;
+  text-decoration: none;
+}
+
+.contact:hover {
+  color: #2f2d2d98;
+}
+
+.logo {
+  position: absolute;
+  left: 600px;
+  top: 20px;
+}
+
+.magaz {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  width: 108px;
+  height: 21px;
+  left: -230px;
+  top: 38px;
+}
+
+.magaz:hover {
+  color: #2f2d2d98;
+}
+
+.catalog {
+  position: relative;
+  color: #000;
+  width: 72.76px;
+  height: 17.61;
+  text-decoration: none;
+  top: 37px;
+  left: -210px;
+}
+
+.catalog:hover {
+  color: #2f2d2d98;
+}
+
+.pay {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  width: 177px;
+  height: 18px;
+  left: -190px;
+  top: 37px;
+}
+
+.pay:hover {
+  color: #2f2d2d98;
+}
+
+.registration {
+  position: relative;
+  width: 429px;
+  height: 615px;
+  background-color: #fff;
+  border-radius: 24px;
+  top: 80px;
+  left: 90px;
+  box-shadow: #000;
+}
+
+.entry {
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  width: 45px;
+  height: 21px;
+  font-weight: 700;
+  left: 80px;
+  top: 80px;
+}
+
+.entry:hover {
+  color: #2f2d2d98;
+}
+
+.registr-link {
+  position: relative;
+  color: #67127ea5;
+  text-decoration: none;
+  width: 120px;
+  height: 21px;
+  font-weight: 700;
+  left: 100px;
+  top: 80px;
+}
+
+.registr-link:hover {
+  color: #2f2d2d98;
+}
+
+.input-form-name {
+  position: relative;
+  top: 565px;
+  border-radius: 24px;
+  width: 256.15px;
+  height: 39.23px;
+  background-color: #f8f1ff;
+  border-radius: 5px;
+  border: #f8f1ff;
+  top: 100px;
+  left: 80px;
+}
+
+.input-form-name:hover {
+  border: none;
+}
+
+.input-form-name:focus {
+  border: 2px solid #985ace;
+  outline: #985ace;
+}
+
+.input-form-familia {
+  position: relative;
+  top: 110px;
+  left: 80px;
+  width: 256.15px;
+  height: 39.23px;
+  background-color: #f8f1ff;
+  border-radius: 5px;
+  border: #f8f1ff;
+}
+
+.input-form-familia:hover {
+  border: none;
+}
+
+.input-form-familia:focus {
+  border: 2px solid #a164dfd6;
+  outline: #a164dfd6;
+}
+
+.email {
+  position: relative;
+  top: 120px;
+  left: 80px;
+  width: 256.15px;
+  height: 39.23px;
+  background-color: #f8f1ff;
+  border: #f8f1ff;
+  border-radius: 5px;
+}
+
+.email:hover {
+  border: none;
+}
+.email:focus {
+  border: 2px solid #a164dfd6;
+  outline: #a164dfd6;
+}
+
+.parol {
+  position: relative;
+  top: 130px;
+  left: 80px;
+  width: 256.15px;
+  height: 39.23px;
+  background-color: #f8f1ff;
+  border-radius: 5px;
+  border: #f8f1ff;
+}
+
+.parol:hover {
+  border: none;
+}
+
+.parol:focus {
+  border: 2px solid #a164dfd6;
+  outline: #985ace;
+}
+
+.reg-btn {
+  position: relative;
+  width: 273px;
+  height: 40px;
+  border: 7px;
+  background-color: #985ace;
+  color: #ffffff;
+  top: 180px;
+  left: 75px;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.reg-btn:hover {
+  background-color: #fff;
+  border: 2px solid #985ace;
+  color: #000;
+}
+
+hr {
+  position: relative;
+  border: 0;
+  height: 1px;
+  background-color: #623788;
+  margin: 20px 0;
+  top: 180px;
+  width: 65%;
+  margin: 0px auto;
+  margin-top: 15px;
+  right: 4px;
+}
+
+.google {
+  position: relative;
+  top: 200px;
+  width: 273px;
+  height: 39px;
+  background-color: #fff;
+  border: 1px solid #985ace;
+  border-radius: 7px;
+  left: 75px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.google:hover {
+  background-color: #ecdcfc;
+}
+
+.google-img {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  top: 3px;
+}
+
+.link-google {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.form-2 {
+  position: relative;
+  background-color: #fff;
+  width: 457px;
+  height: 518px;
+  border-radius: 20px;
+  left: 600px;
+  bottom: 440px;
+}
+
+.entry-2 {
+  position: relative;
+  text-decoration: none;
+  color: #67127ea5;
+  width: 45px;
+  height: 21px;
+  font-weight: 700;
+  left: 80px;
+  top: 80px;
+}
+
+.entry-2:hover {
+  color: #2f2d2d98;
+}
+
+.registr-link-2 {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  width: 120px;
+  height: 21px;
+  font-weight: 700;
+  left: 100px;
+  top: 80px;
+}
+
+.registr-link-2:hover {
+  color: #2f2d2d98;
+}
+
+.email-2 {
+  position: relative;
+  top: 140px;
+  right: 90px;
+  width: 256.15px;
+  height: 39.23px;
+  background-color: #f8f1ff;
+  border: #f8f1ff;
+  border-radius: 5px;
+}
+
+.email-2:hover {
+  border: none;
+}
+
+.email-2:focus {
+  border: 2px solid #a164dfd6;
+  outline: #a164dfd6;
+}
+
+.password-2 {
+  position: relative;
+  top: 150px;
+  left: 80px;
+  width: 256.15px;
+  height: 39.23px;
+  background-color: #f8f1ff;
+  border: #f8f1ff;
+  border-radius: 5px;
+}
+
+.password-2:hover {
+  border: none;
+}
+
+.password-2:focus {
+  border: 2px solid #a164dfd6;
+  outline: #a164dfd6;
+}
+
+.favicon-1 {
+  position: relative;
+  width: 8px;
+  height: 11px;
+  top: 140px;
+  right: 120px;
+}
+
+.eyes {
+  position: relative;
+  width: 12px;
+  height: 8px;
+  left: 47px;
+  top: 150px;
+}
+
+.remember {
+  position: relative;
+  top: 205px;
+  right: 205px;
+}
+
+.enter-btn {
+  position: relative;
+  width: 273px;
+  height: 40px;
+  color: #fff;
+  background-color: #985ace;
+  left: 78px;
+  top: 200px;
+  border: #a164dfd6;
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+.enter-btn:hover {
+  border: 2px solid #a164dfd6;
+  background-color: #fff;
+  color: #000;
+}
+
+.hr-2 {
+  position: relative;
+  top: 220px;
+  width: 60%;
+  right: 13px;
+}
+
+.forget {
+  position: relative;
+  text-decoration: none;
+  top: 223px;
+  left: 150px;
+  color: #000;
+}
+
+.forget:hover {
+  color: #623788;
+}
+
+.google-2 {
+  position: relative;
+  top: 270px;
+  width: 273px;
+  height: 39px;
+  background-color: #fff;
+  border: 1px solid #985ace;
+  border-radius: 7px;
+
+  text-align: center;
+  font-size: 14px;
+  right: 45px;
+}
+
+.google-2-img {
+  position: relative;
+  top: 272px;
+  width: 15px;
+  height: 15px;
+  right: 275px;
+}
+
+.google-2:hover {
+  background-color: #ecdcfc;
+}
